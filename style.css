@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header Section */
+header {
+    background-color: #4caf50;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+    margin: 5px 0 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #25374e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #1a2a3b;
+    border-radius: 5px;
+}
+nav a:hover {
+    color: #ffcc00;
+    transition: 0.3s;
+  }
+  
+/* About Section */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #25374e;
+    padding: 50px;
+    color: white;
+}
+
+
+.about-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+/* Footer */
+footer {
+    background-color: #25374e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
